@@ -1,0 +1,94 @@
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5px;
+  height: 150px;
+  text-align: right;
+  padding: 10px;
+  border: solid;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: none;
+  left: -1px;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+  align-content: center;
+}
+
+li {
+  padding: 5px;
+}
+
+form {
+  text-align: center;
+  padding: 10px;
+  margin: 100px;
+}
+
+.content {
+  align-self: center;
+}
+
+.tagline {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.footer {
+  display: inline;
+  position: absolute;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  bottom: 0px;
+}
+
+button {
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.posthead {
+  text-align: center;
+}
+
+.commentIcon {
+  height: 20px;
+  width: 35px;
+}
+
+.binIcon {
+  height: 20px;
+  width: 20px;
+}
+
+.binbutton {
+  background: none;
+  border: none;
+}
+
+.sorting {
+  max-width: fit-content;
+}
+
+.soloposttitle {
+  text-align: center;
+  align-self: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.soloposts {
+  text-align: center;
+}
